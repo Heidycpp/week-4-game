@@ -6,6 +6,8 @@ var blueChoice = Math.floor(Math.random()*(12 - 1 + 1) + 1);
 var redChoice = Math.floor(Math.random()*(12 - 1 + 1) + 1);
 var greenChoice = Math.floor(Math.random()*(12 - 1 + 1) + 1);
 var userTotalScore = 0;
+
+
 function shuffleCrystalValues(){
 	purpleChoice = Math.floor(Math.random()*(12 - 1 + 1) + 1);
 	blueChoice = Math.floor(Math.random()*(12 - 1 + 1) + 1);
@@ -68,18 +70,3 @@ $('#green').on('click', function(){
 	$('#current-score-counter').text(userTotalScore);
 	gamePlay();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

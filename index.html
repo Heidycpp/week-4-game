@@ -1,77 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Crystal Collector!</title>
+	<title>Crystals Collector Game</title>
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-
-  <title>simple crystal game</title>
 </head>
 <body>
-	<div class="container">
-	<header>
-		<h1>Crystal Collector!</h1>
-	</header>
-	<br>
+
+	<div id="container">
+		<header>
+			<h1>Crystals Collector!</h1>
+		</header>
+
 	<section>
-		<p>
-			You will be given a randon numner at the start of the game.
-		</p>
+		<p>You will be given a randon number at the start of the game.</p>
 			<br>
-		<p>
-			There are four crystals bellow. By clicking on a crystal you will ad specific amount of points to your total score.
-		</p>
+		<p>There are four crystals bellow. By clicking on a crystal you will add a specific amount of points to your total score.</p>
 			<br>
-			<p>
-
-			You win the game by matching your total score to the random number, you lose the game is your total score goes above the random number.
-		</p>
+			<p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
 		<br>
-		<p>
-			The value of each crystal is hidden fron you until you click on it.
-		</p>
+		<p>The value of each crystal is hidden fron you until you click on it.</p>
 			<br>
-			<p>
-			Each time when the game starts, the game will change the values of each crystal.
-		</p>
-</section>
-
-	<div class="container-fluid">
-		<div class="row randnum-scoreboard">
-			<div class="col-md-4">
-				<div class="randnum-generator">
-				<span class="random-number"></span>
-				</div>
-				<div class="score-board">
-				<span class="win-or-lose"></span>
-				<p>Wins: <span class="win-counter">0</span></p>
-				<p>Losses: <span class="loss-counter">0</span></p>
+			<p>Each time when the game starts, the game will change the values of each crystal.</p>
+		</section>
+		<div id="randomnumber-and-scoreboard">
+			<div id="random-number-generator">
+				<span id="random-number"></span>
 			</div>
-		</div> 
 
-
- <div class="container-fluid">
-	<div class="row crystals">
-		<div class="col-md-6">
-				<img id="purple" src="assets/images/crystal1.jpg" alt="purple"
-				width="80" height="80">
-				<img id="blue" src="assets/images/crystal2.jpg" alt="blue" width="80" height="80">
-				<img id="red" src="assets/images/crystal3.jpg" alt="red" width="80" height="80">
-				<img id="green" src="assets/images/crystal4.jpg" alt="green" width="80" height="80">
+			<div id="score-board">
+				<span id="win-or-lose"></span>
+				<p>Wins: <span id="win-counter">0</span></p>
+				<p>Losses: <span id="loss-counter">0</span></p>
 			</div>
 		</div>
-	</div>
+		<div id="crystals">
+				<img id="purple" src="assets/images/crystal1.jpg" alt="purple pic">
+				<img id="blue" src="assets/images/crystal2.jpg" alt="blue pic">
+				<img id="red" src="assets/images/crystal3.jpg" alt="red pic">
+				<img id="green" src="assets/images/crystal4.jpg" alt="green pic">
+			</div>
 	<div id="current-score">
 			<h1>Your total score is:</h1>
 			<span id="current-score-counter"></span>
 		</div>
 	</div>
-</div>
-</div>
-</script>
-<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/game.js"></script>
-
+	<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

@@ -1,0 +1,110 @@
+body {
+	background: url(../images/tealbg.jpeg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+h1 {
+	color: #334e60;
+}
+
+p {
+	color: #334e60;
+}
+
+#container {
+	margin-top: 25px;
+}
+
+header {
+	background-color: #669cc0;
+	width: 500px;
+	margin: 0 auto;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 2px;
+	padding: 8px 5px 8px 5px;
+}
+
+section {
+	background-color: #d2d7bb;
+	width: 500px;
+	height: 250px;
+	line-height: 1em;
+	margin: 25px auto 10px;
+}
+
+section p {
+	padding-top: 9px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+#randomnumber-and-scoreboard {
+	width: 500px;
+	margin: 0 auto 10px;
+	height: 130px;
+	color: #fff;
+}
+
+#random-number {
+	padding-left: 8px;
+}
+
+#random-number-generator {
+	background-color: #0a7cdf;
+	font-size: 60px;
+	width: 49%;
+	height: 100%;
+	float: left;
+	color: #fff;
+}
+
+#score-board {
+	background-color: #4e7792;
+	width: 49%;
+	height: 100%;
+	font-size: 30px;
+	float: right;
+	text-align: center;
+	line-height: 1.4em;
+	color: #fff;
+}
+
+#crystals {
+	background-color: #334e60;
+	width: 496px;
+	height: 126px;
+	margin: auto;
+	border: 2px solid #669cc0;
+}
+
+#crystals img {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+#current-score {
+	clear: both;
+	width: 500px;
+	height: 105px;
+	background-color: #c9dbb7;
+	margin: 10px auto;
+}
+
+#current-score h1 {
+	font-size: 150%;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+#current-score-counter {
+	color: #fff;
+	font-size: 350%;
+	padding-left: 10px;
+}
